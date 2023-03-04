@@ -1,0 +1,86 @@
+.input_data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f1f1f1;
+  margin: 2rem 36rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
+  z-index: 10000;
+}
+.input_data input {
+  background-color: whitesmoke;
+  width: 15rem;
+  outline: none;
+  padding: 0.3rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+.input_data button {
+  margin-left: 1rem;
+  width: 3rem;
+  height: 1.6rem;
+  border-radius: 0.2rem;
+  outline: none;
+  cursor: pointer;
+  background-color: rgb(168, 114, 218);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+}
+.ui {
+  display: flex;
+  padding: 2rem;
+  background-color: #f1f1f1;
+  margin: 2rem 36rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
+  z-index: 10000;
+  max-height: 20rem;
+  overflow-y: scroll;
+}
+.ui::-webkit-scrollbar {
+  background-color: #fff;
+  width: 0.2rem;
+}
+.ui::-webkit-scrollbar-thumb {
+  background-color: rgb(198, 193, 204);
+  border-radius: 1rem;
+}
+.ui ul {
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  margin-left: -2.3rem;
+}
+.ui ul li {
+  border: 1px solid indigo;
+  margin-top: 1rem;
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+  color: #333;
+}
+.delete {
+  float: right;
+  font-size: 0.5rem;
+  align-items: center;
+  align-content: center;
+  background-color: rgb(226, 80, 80);
+  color: white;
+  border: none;
+  padding: 4px;
+  border-radius: 5px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .input_data {
+    margin: 3rem 10rem;
+  }
+  .ui {
+    margin: 3rem 10rem;
+  }
+}
